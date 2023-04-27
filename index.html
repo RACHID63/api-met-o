@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+  </head>
+  <body>
+    <h1>Weather App</h1>
+    <form id="form">
+      <label for="city">Enter a city:</label>
+      <input type="text" id="city" name="city">
+      <button type="submit">Search</button>
+    </form>
+    <div class="js-card card card--hidden">
+      <h2 class="js-card-title card__title"></h2>
+      <p class="js-card-population card__population"></p>
+      <p class="js-card-temperature card__temperature"></p>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
